@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>third page</title>
+        <style>
+            #message{
+                text-align: center;
+                font-style: italic;
+                font-size: 29px;
+                padding-top: 300px;
+                text-shadow: 3px 3px pink;
+            }
+
+            
+
+            body{
+            background-image: url(page3.jpg);
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+
+          #nixt{
+            float: right;
+            margin-top: 150px;
+            margin-right: 20px;
+            background-color: orange;
+            border-radius: 10%;
+            border-width: 3px;
+            border-color: wheat;
+            padding: 10px;
+            font-size: 15px;
+          }
+        </style>
+    </head>
+
+    <body>
+
+
+        <p id="message"><b>From the day one,<br> the time I laid my eyes upon you was a moment.<br> That time I didn't have enought guts<br> to even talk to you.</b></p>
+        <button id="nixt" onclick="nextPage()">  Next </button>
+
+
+        <script>
+            function nextPage() {
+                        window.location.href = "fourth_page.html";
+                    }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Second Page</title>
+
+        <style>
+           body{
+            background-image: url(second_page.jpg);
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+
+           #txt{
+            font-size: 40px;
+            font-style: italic;
+            color : white; 
+            text-align: center;
+            padding-top: 250px;
+           }
+
+           #nixt{
+            float: right;
+            margin-top: 290px;
+            margin-right: 20px;
+            background-color: orange;
+            border-radius: 10%;
+            border-width: 3px;
+            border-color: wheat;
+            padding: 10px;
+            font-size: 15px;
+            
+
+           }
+        </style>
+    </head>
+
+    <body>
+       <p id="txt"><b>Oki ! First thing first. It's the last time i'm trying something.</b></p>
+       <button id="nixt" onclick="nextPage()">NIXT</button>
+
+       <script>
+        function nextPage() {
+                        window.location.href = "third_page.html";
+                    }
+       </script>
+    </body>
+</html>

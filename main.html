@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Make a choice</title>
+
+        <style>
+
+            #mntext{
+                font-size: 40px;
+                font-style:italic;
+                margin: 10px;
+                text-align: center;
+                color: white;
+            }
+
+            #proceed{
+                margin-left: 100px;
+                background-color: greenyellow;
+                border-color: green;
+                
+            
+                
+            }
+
+            #exit{
+                float: right;
+                margin-right: 100px;
+                
+                background-color: red;
+                border-color:black;
+                
+            }
+
+            #proceed:hover{
+                font-size: 40px;
+                opacity: 1;
+            }
+
+            #exit:hover{
+                font-size: 10px;
+            }
+
+            button{
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-size: 27px;
+                margin-top: -350px;
+                border-radius: 10%;
+                border-style: solid;
+                border-width: 5px;
+                
+                
+            }
+
+            body{
+                background-image: url(onepage.jpg);
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+                
+            }
+
+
+            
+
+            img{
+
+              max-width: 550p;
+              height: 550px;
+              border-radius:5%;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+              
+            
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        
+ 
+    
+
+
+        <b><div id="mntext">  Hey CutiePie : ) <br>Listen! If you feel shy back off now!!</div></b>
+        
+      
+        <div id="imgimg"><img src="web 1.jpg"></div>
+        <button id="proceed" onclick="nextPage()"> PROCEED </button>
+        <button id="exit"> EXIT </button>
+       
+       
+       <script>
+        document.getElementById("exit").onclick = function(){
+            alert(": ( Good Bye")
+        }
+
+        function nextPage() {
+                        window.location.href = "second_page.html";
+                    }
+       </script>
+       
+       
+    </body>
+</html>
